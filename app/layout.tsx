@@ -1,5 +1,4 @@
 import SolanaWeb3Provider from '@/Components/SolanaWeb3Provider';
-import './globals.css';
 
 
 export const metadata = {
