@@ -1,9 +1,9 @@
 "use client"
-import { ChainId, Web3OnboardProvider, init } from '@web3-onboard/react';
+import { Web3OnboardProvider, init } from '@web3-onboard/react';
 import injectedModule from '@web3-onboard/injected-wallets';
 // import walletConnectModule from '@web3-onboard/walletconnect';
-import coinbaseWalletModule from '@web3-onboard/coinbase';
-import phantomModule from '@web3-onboard/phantom';
+// import coinbaseWalletModule from '@web3-onboard/coinbase';
+// import phantomModule from '@web3-onboard/phantom';
 
 const injected = injectedModule();
 // const walletConnect = walletConnectModule({

@@ -26,7 +26,7 @@ export default function HomePage() {
 
             {wallet && (
                 <div>
-                    <p>Connected Wallet: {wallet.name}</p>
+                    {/* <p>Connected Wallet: {wallet.name}</p> */}
                     <p>Connected Account: {wallet.accounts[0].address}</p>
                     <p>
                         Connected Chain:{' '}
